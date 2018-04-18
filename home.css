@@ -19,3 +19,18 @@
 .buttons{
 	text-align: center;
 }
+
+.buttons{
+	text-align: center;
+}
+
+.destress-buttons{
+	font-size: 30px;
+	color: #008080;
+	text-align: center;
+}
+
+#De-stress-button{
+    padding: 100px; /*Large button, radius of 50% makes it a circle*/
+    border-radius: 50%;
+}
