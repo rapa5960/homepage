@@ -1,38 +1,41 @@
 <html>
-	<head>
+<head>
 	<title> Home Page</title>
 	<link rel="stylesheet" href="home.css">
-	</head>
-	
-	<body>
-		<h1> Task Manager/Destresser</h1>
-		
+</head>
+
+<body>
+	<h1> Task Manager/Destresser</h1>
+
 	<img src= "https://appliedalliance.files.wordpress.com/2014/02/inhaleexhalerepeat.jpg">
-	
 
-		
-		 <form>
-<input class="ButtonTask" type="button"  value="Click here to add a Task" onclick="window.location.href='http://www.google.com'" />
-</form> 
+        <div id="destress-area">
+        <button id="De-stress-button" style="display:block;" onclick="showOptions()"> De-Stress </button>
+          <!-- Hidden buttons that will appear after clicking main de-stress buttons -->
+        <button class="destress-buttons" style="display:none;" id="ButtonBreathe"  onclick="window.location.href='http://www.google.com'"> Click here to Destress by deep breathing </button>
+        <button class="destress-buttons" style="display:none;" id="ButtonTextPoof" onclick="window.location.href='http://www.google.com'"> Click here to Destress by using Text Poof </button>
+	<button class="destress-buttons" style="display:none;" id="ButtonActivity" onclick="window.location.href='http://www.google.com'"> Click here to Destress by doing an activity </button>
+        </div>
 
-		 <form>
-<input class="ButtonBreathe" type="button" value="Click here to Destress by deep breathing" onclick="window.location.href='http://www.google.com'" />
-</form> 
 
-		 <form>
-<input class="ButtonTextPoof" type="button" value="Click here to Destress by using Text Poof" onclick="window.location.href='http://www.google.com'" />
-</form>
-	
-		<form>
-<input class="ButtonActivity" type="button" value="Click here to Destress by doing an activity" onclick="window.location.href='http://www.google.com'" />
-</form>
-	
-	
-	
+        <button id="ButtonTask" onclick="window.location.href='http://www.google.com'"> Click here to view/add tasks </button>
 
-	
-	</body>
 
+        <script>
+          function showOptions(){
+          document.getElementById("De-stress-button").style.display = 'none';
+          document.getElementById("ButtonBreathe").style.display = 'block';
+          document.getElementById("ButtonTextPoof").style.display = 'block';
+          document.getElementById("ButtonActivity").style.display = 'block';
+
+          }
+        </script>
+
+
+</body>
+
+
+</html>
 
 
 
