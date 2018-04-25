@@ -1,36 +1,43 @@
-.ButtonTask{
-	font-size: 30px;
-	color: #008080;
-	text-align: center;
-}
-.ButtonBreathe{
-	font-size: 30px;
-	color: #008080;
-}
-
-.ButtonActivity{
-	font-size: 30px;
-	color: #008080;
-}
-.ButtonTextPoof{
-	font-size: 30px;
-	color: #008080;
-}
-.buttons{
-	text-align: center;
-}
 
 .buttons{
 	text-align: center;
 }
+
+
 
 .destress-buttons{
 	font-size: 30px;
 	color: #008080;
-	text-align: center;
+	padding:50px;
+	border-radius: 50%;
 }
 
 #De-stress-button{
     padding: 100px; /*Large button, radius of 50% makes it a circle*/
     border-radius: 50%;
+    color: #008080;
+    font-size: 30px;
+    
+    
+  
+
+}
+
+.task{
+	padding: 100px;
+	border-radius: 50%;
+	color: #008080;
+	font-size: 30px;
+	
+	
+
+}
+
+#destress-area{
+    text-align:center;
+	display: inline-block;
+	position: absolute;
+	left: 25%;
+
+    
 }
